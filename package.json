@@ -2,27 +2,32 @@
   "name": "@sequencemedialimited/certificates",
   "version": "0.0.0",
   "main": "index.mjs",
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix"
-  },
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git@sequencemedia.github.com:sequencemedialimited/certificates.git"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.50",
-    "@types/yargs-parser": "^21.0.3",
-    "eslint": "^9.25.1",
-    "globals": "^16.0.0"
+  "scripts": {
+    "clear": "rimraf .tifs",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "exifreader": "^4.29.0",
+    "fs-extra": "^11.3.0",
     "glob-all": "^3.3.1",
     "json-2-csv": "^5.5.9",
+    "rimraf": "^6.0.1",
     "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@sequencemedia/eslint-config-standard": "^0.2.50",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.15.3",
+    "@types/yargs-parser": "^21.0.3",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7"
   }
 }

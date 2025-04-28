@@ -16,3 +16,8 @@ node_modules
 
 # CSV
 *.csv
+.csvs
+
+# TIF
+*.tif
+.tifs
