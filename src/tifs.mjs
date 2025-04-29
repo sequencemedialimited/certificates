@@ -6,7 +6,7 @@ import {
 import glob from 'glob-all'
 
 import {
-  getRenderFiles
+  getRenderTifs
 } from './render.mjs'
 
 import config from './config.mjs'
@@ -18,4 +18,4 @@ const ORIGIN = resolve(config.get('origin'))
 const DESTINATION = resolve(config.get('destination') ?? '.tifs')
 const PATTERN = join(ORIGIN, '**/*.tif')
 
-glob(PATTERN, getRenderFiles(DESTINATION))
+glob(PATTERN, getRenderTifs(DESTINATION))

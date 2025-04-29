@@ -206,7 +206,7 @@ export function getRenderTagsCSV (destination = '.csvs/tags.csv') {
  *  @param {Map<string, Set<string>>} map
  *  @returns {Promise<void>}
  */
-async function renderFiles (fileRoot, map) {
+async function renderTifs (fileRoot, map) {
   await ensureDir(fileRoot)
 
   for (const [key, set] of map) {
@@ -216,7 +216,8 @@ async function renderFiles (fileRoot, map) {
 
     if (set.size > 1) {
       await Promise.all(Array.from(set).map((origin, index) => {
-        const destination = join(directory, `${key} (${index + 1}).tif`)
+        const fileName = `${key} (${index + 1}).tif`
+        const destination = join(directory, fileName)
 
         return (
           copyFile(origin, destination)
@@ -224,7 +225,8 @@ async function renderFiles (fileRoot, map) {
       }))
     } else {
       await Promise.all(Array.from(set).map((origin) => {
-        const destination = join(directory, `${key}.tif`)
+        const fileName = `${key}.tif`
+        const destination = join(directory, fileName)
 
         return (
           copyFile(origin, destination)
@@ -238,7 +240,7 @@ async function renderFiles (fileRoot, map) {
  *  @param {string} [fileRoot]
  *  @returns {(e?: Error, filePathList?: string[]) => void}
  */
-export function getRenderFiles (fileRoot = '.tifs') {
+export function getRenderTifs (fileRoot = '.tifs') {
   /**
    *  @param {Map<string, Set<string>>} map
    *  @param {string} filePath
@@ -269,6 +271,6 @@ export function getRenderFiles (fileRoot = '.tifs') {
 
     const map = filePathList.reduce(toMap, new Map())
 
-    await renderFiles(fileRoot, map)
+    await renderTifs(fileRoot, map)
   }
 }
