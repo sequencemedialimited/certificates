@@ -22,7 +22,7 @@
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.56",
+    "@sequencemedia/eslint-config-standard": "^0.2.57",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.15.17",
     "@types/yargs-parser": "^21.0.3",
