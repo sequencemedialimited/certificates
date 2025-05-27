@@ -19,7 +19,7 @@
     "glob-all": "^3.3.1",
     "json-2-csv": "^5.5.9",
     "rimraf": "^6.0.1",
-    "yargs-parser": "^21.1.1"
+    "yargs-parser": "^22.0.0"
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.62",
