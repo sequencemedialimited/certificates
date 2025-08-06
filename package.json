@@ -15,14 +15,14 @@
   },
   "dependencies": {
     "exifreader": "^4.31.1",
-    "fs-extra": "^11.3.0",
+    "fs-extra": "^11.3.1",
     "glob-all": "^3.3.1",
     "json-2-csv": "^5.5.9",
     "rimraf": "^6.0.1",
     "yargs-parser": "^22.0.0"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.74",
+    "@sequencemedia/eslint-config-standard": "^0.2.75",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^24.2.0",
     "@types/yargs-parser": "^21.0.3",
