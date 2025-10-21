@@ -22,9 +22,9 @@
     "yargs-parser": "^22.0.0"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.94",
+    "@sequencemedia/eslint-config-standard": "^0.2.95",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^24.8.1",
+    "@types/node": "^24.9.1",
     "@types/yargs-parser": "^21.0.3",
     "eslint": "^9.38.0",
     "globals": "^16.4.0",
