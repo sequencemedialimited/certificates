@@ -17,12 +17,12 @@
     "exifreader": "^4.32.0",
     "fs-extra": "^11.3.2",
     "glob-all": "^3.3.1",
-    "json-2-csv": "^5.5.9",
+    "json-2-csv": "^5.5.10",
     "rimraf": "^6.0.1",
     "yargs-parser": "^22.0.0"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.96",
+    "@sequencemedia/eslint-config-standard": "^0.2.97",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^24.9.1",
     "@types/yargs-parser": "^21.0.3",
