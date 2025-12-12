@@ -24,7 +24,7 @@
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.107",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^25.0.0",
+    "@types/node": "^25.0.1",
     "@types/yargs-parser": "^21.0.3",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
