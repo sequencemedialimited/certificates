@@ -14,7 +14,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "exifreader": "^4.35.0",
+    "exifreader": "^4.36.0",
     "fs-extra": "^11.3.3",
     "glob-all": "^3.3.1",
     "json-2-csv": "^5.5.10",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.107",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^25.0.5",
+    "@types/node": "^25.0.8",
     "@types/yargs-parser": "^21.0.3",
     "eslint": "^9.39.2",
     "globals": "^17.0.0",
