@@ -14,7 +14,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "exifreader": "^4.36.0",
+    "exifreader": "^4.36.1",
     "fs-extra": "^11.3.3",
     "glob-all": "^3.3.1",
     "json-2-csv": "^5.5.10",
