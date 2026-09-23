@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "exifreader": "^4.45.2",
-    "fs-extra": "^11.4.0",
+    "fs-extra": "^11.4.1",
     "glob-all": "^3.3.1",
     "json-2-csv": "^5.6.0",
     "rimraf": "^6.1.3",
