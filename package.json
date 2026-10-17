@@ -26,7 +26,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^26.6.5",
     "@types/yargs-parser": "^21.0.3",
-    "eslint": "^10.12.0",
+    "eslint": "^10.13.0",
     "globals": "^17.13.0",
     "husky": "^9.1.7"
   }
